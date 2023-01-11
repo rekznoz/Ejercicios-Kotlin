@@ -42,7 +42,7 @@ fun main() {
     var numbers = listOf("Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis", "Siete", "Ocho", "Nueve", "Cero")
     var numbersRev = reverse(numbers)
 
-    if (!listOf("four", "three", "two", "one").equals(numbersRev))
+    if (!listOf("Cero", "Nueve", "Ocho", "Siete", "Seis", "Cinco", "Cuatro", "Tres", "Dos", "Uno").equals(numbersRev))
         println("Error")
     else
         println("Correcto")
